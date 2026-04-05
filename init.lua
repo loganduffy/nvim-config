@@ -5,10 +5,10 @@ vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.wrap = true
 vim.opt.termguicolors = true
-vim.opt.cursorline = true         -- highlight current line
-vim.opt.signcolumn = "yes"        -- always show sign column (prevents layout shift)
-vim.opt.updatetime = 250          -- faster CursorHold / diagnostics
-vim.opt.undofile = true           -- persistent undo across sessions
+vim.opt.cursorline = true        
+vim.opt.signcolumn = "yes"      
+vim.opt.updatetime = 250       
+vim.opt.undofile = true       
 
 -- Tabs and Indentation
 vim.opt.tabstop = 2
@@ -34,7 +34,7 @@ vim.opt.splitbelow = true
 
 -- Appearance
 vim.opt.background = "dark"
-vim.opt.guifont = "MesloLGS NF:h17"
+vim.opt.guifont = "JetBrainsMono Nerd Font:h17"
 
 -- Keymaps
 require("config.keymaps")
